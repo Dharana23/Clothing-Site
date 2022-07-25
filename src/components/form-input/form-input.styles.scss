@@ -7,19 +7,14 @@ $main-color: black;
   color: $main-color;
 }
 
-@mixin backgroundColor {
-  background-color: #d5e2ef;
-}
-
-.form-group {
+.group {
   position: relative;
   margin: 45px 0;
-
 
   .form-input {
     background: none;
     background-color: white;
-    color: $main-color;
+    color: $sub-color;
     font-size: 18px;
     padding: 10px 10px 10px 5px;
     display: block;
@@ -33,17 +28,13 @@ $main-color: black;
       outline: none;
     }
 
-    &:focus~.form-input-label {
+    &:focus ~ .form-input-label {
       @include shrinkLabel();
-    }
-
-    &.background-color {
-      @include backgroundColor();
     }
   }
 
   input[type='password'] {
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.3em;
   }
 
   .form-input-label {
