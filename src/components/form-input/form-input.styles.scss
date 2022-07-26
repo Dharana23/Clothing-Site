@@ -7,6 +7,10 @@ $main-color: black;
   color: $main-color;
 }
 
+@mixin backgroundColor {
+  background-color: #d5e2ef;
+}
+
 .group {
   position: relative;
   margin: 45px 0;
@@ -14,7 +18,7 @@ $main-color: black;
   .form-input {
     background: none;
     background-color: white;
-    color: $sub-color;
+    color: $main-color;
     font-size: 18px;
     padding: 10px 10px 10px 5px;
     display: block;
@@ -28,8 +32,12 @@ $main-color: black;
       outline: none;
     }
 
-    &:focus ~ .form-input-label {
+    &:focus~.form-input-label {
       @include shrinkLabel();
+    }
+
+    &.background-color {
+      @include backgroundColor();
     }
   }
 
