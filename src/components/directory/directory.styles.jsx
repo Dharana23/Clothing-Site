@@ -1,13 +1,16 @@
-.directory-container {
+import styled from "styled-components";
+
+export const DirectoryContainer = styled.div`
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-}
+`;
 
-@media (max-width: 568px) {
+
+/* @media (max-width: 568px) {
   .directory-container {
     display: flex;
     flex-direction: column;
   }
-}
+} */
