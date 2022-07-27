@@ -32,18 +32,3 @@ export const Total = styled.span`
   font-size: 36px;
 `;
 
-/* @media (max-width: 568px) {
-  .checkout-container {
-    width: 100%;
-
-    .checkout-header {
-      .header-block {
-        width: 20%;
-      }
-    }
-
-    .total {
-      font-size: 25px;
-    }
-  }
-} */

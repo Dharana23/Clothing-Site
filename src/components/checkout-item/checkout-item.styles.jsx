@@ -40,16 +40,3 @@ export const RemoveButton = styled.div`
   padding-left: 12px;
   cursor: pointer;
 `;
-
-/*
-@media (max-width:568px) {
-  .checkout-item-container {
-
-    .name,
-    .quantity,
-    .price {
-      width: 25%;
-      font-size: 17px;
-    }
-  }
-} */

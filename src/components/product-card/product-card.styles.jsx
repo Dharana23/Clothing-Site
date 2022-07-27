@@ -51,19 +51,3 @@ export const Name = styled.span`
 export const Price = styled.span`
   width: 10%;
 `;
-
-/* 
-@media (max-width: 568px) {
-  .product-card-container {
-    width: 70%;
-    height: 250px;
-
-    button {
-      width: 50%;
-      opacity: 0.7;
-      position: absolute;
-      top: 170px;
-      display: none;
-    }
-  }
-} */

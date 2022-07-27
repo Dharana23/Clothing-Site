@@ -27,13 +27,3 @@ export const NavLinks = styled(Link)`
   padding: 10px 15px;
   cursor: pointer;
 `;
-
-// @media (max-width: 568px) {
-//   .navigation {
-//     .nav-links-container {
-//       .nav-link {
-//         padding: 10px 9px;
-//       }
-//     }
-//   }
-// }

@@ -9,10 +9,3 @@ export const SignUpContainer = styled.div`
     margin: 10px 0;
   }
 `;
-
-/* @media (max-width: 568px) {
-  .sign-up-container {
-    width: 365px;
-    margin-bottom: 10px;
-  }
-} */

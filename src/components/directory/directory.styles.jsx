@@ -7,10 +7,3 @@ export const DirectoryContainer = styled.div`
   justify-content: space-between;
 `;
 
-
-/* @media (max-width: 568px) {
-  .directory-container {
-    display: flex;
-    flex-direction: column;
-  }
-} */
