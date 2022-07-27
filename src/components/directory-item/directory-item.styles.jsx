@@ -50,10 +50,12 @@ export const DirectoryItemContainer = styled.div`
   }
   &:hover {
     cursor: pointer;
+
     ${BackgroundImage} {
       transform: scale(1.1);
       transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
     }
+
     ${Body} {
       opacity: 0.9;
     }
